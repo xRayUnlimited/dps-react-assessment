@@ -14,6 +14,10 @@ class App extends Component {
         <Flash />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/beers' component={Beers} />
+          <Route exact path='/breweries' component={Breweries} />
+          <Route exact path='/beer/:id' component={ShowBeer} />
+          <Route exact path='/brewery/:id' component={ShowBreweries} />
           <Route component={NoMatch} />
         </Switch>
       </Segment>
