@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import { Segment } from 'semantic-ui-react';
 import NoMatch from './NoMatch';
 import NavBar from './NavBar';
 import Flash from './Flash';
 import Home from './Home';
-import { Switch, Route } from 'react-router-dom';
-import { Segment } from 'semantic-ui-react';
+import Beers from './Beers';
+import ShowBeer from './ShowBeer';
+import Breweries from './Breweries';
+import ShowBreweries from './ShowBreweries';
 
 class App extends Component {
   render() {

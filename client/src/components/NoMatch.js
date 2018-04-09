@@ -12,7 +12,7 @@ class NoMatch extends Component {
           <Header as='h1' style={styles.header}>DevPoint Studios React Assignment</Header>
         </Segment>
         <Header as='h1' textAlign='center' inverted>
-          Page Not Found
+          404 No Beer Here
           <Link to='/'> - Go Home</Link>
         </Header>
       </Segment>
@@ -25,7 +25,7 @@ const styles = {
     margin: '0 auto',
   },
   header: {
-    color: '#2ecc40'
+    color: '#ff66cc'
   },
   fullHeight: {
     height: '100vh',
@@ -33,3 +33,5 @@ const styles = {
 }
 
 export default NoMatch;
+
+
